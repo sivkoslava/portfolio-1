@@ -1,0 +1,67 @@
+img {
+max-width:100%;
+}
+@media screen and (max-width:800px) {
+.navbar-nav {
+width:auto;
+display:inline-block;
+}
+.text-header {
+width:auto;
+height:auto;
+}
+.text-header h1 {
+margin:20px 0 0 0;
+}
+.text-header h1:after {
+display: none;
+}
+.text-header button {
+margin-bottom:10px;
+}
+
+.our-story-text {
+width:auto;
+margin:0;
+text-align: center;
+} 
+.our-story-text  img {
+margin-top:20px;
+}
+.container-950 {
+width:auto;
+}
+.video h1:before {
+left: 43%;
+top: -367%;
+}
+.testimonials h4 {
+width:auto;
+padding-left:0;
+}
+.forms input[type='text'] {
+width:100%;
+}
+.forms textarea {
+width:100%;
+}
+.forms button {
+width:100%;
+}
+.brands  {
+width:100%;
+}
+}
+@media screen and (max-width: 360px) {
+.navbar-nav {
+width:auto;
+display:inline-block;
+}
+.video h1:before {
+left: 43%;
+top: -367%;
+}
+.container-950 {
+width:auto;
+}
+}
